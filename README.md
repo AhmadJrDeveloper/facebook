@@ -1,2 +1,1 @@
-# facebook
-http://127.0.0.1:5500/home.html
+You can check my project from here -> https://zesty-salmiakki-fe8018.netlify.app/
