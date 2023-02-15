@@ -5,6 +5,8 @@ padding-bottom: 50px;
 
 }
 h2{
+    display: flex;
+    align-content: center;
     color: #0288ee;
     font-size: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -12,10 +14,18 @@ h2{
     padding-left:45%;
 
 }
+.flexBox{
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+    
+}
 #textBox{
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
     background-color: white;
     position: inherit;
-    margin-left: 40%;
     padding-left: 15px;
     
     
