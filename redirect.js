@@ -6,7 +6,7 @@ function logIn(){
     
     
 if( username.toLowerCase()==="admin" && Password.toLowerCase()==="admin"){
-    window.location="Task.html";  
+    window.location="Task.html?username="+username;  
 
 }
 
@@ -16,4 +16,3 @@ else{
 }
 
 }
-
