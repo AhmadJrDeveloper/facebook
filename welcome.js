@@ -8,3 +8,21 @@ document.getElementById("username").textContent = username;
 function back(){
     window.location="home.html";
 }
+var mappingList = [];
+function add(){
+    var username = document.getElementById('nameAdd').value;
+    var password = document.getElementById('passwordAdd').value;
+    var entry = {name:username,password:password};
+    
+    if(username.toLowerCase()===password.toLowerCase()){
+        mappingList.push(entry)
+
+    
+
+    alert('Dear  '+ username.toUpperCase()+" you have been added" );
+    return;
+    }
+    else{
+        alert('please enter the same username and password');
+    }
+}
