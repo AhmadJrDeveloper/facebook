@@ -9,10 +9,24 @@
 	<title>Welcome Page</title>
 </head>
 <body>
+    <div id = "header">
+
+    <div class="flexBox">
+        <div id="textBox">
     <h1>Welcome, <span id="username"></span>!</h1>
     <div id="buttonStyle">
+        <form>
+            <input type="text" placeholder="Enter a name to add" id="nameAdd" name="name" required>
+            <input type="password" placeholder="Enter a password for the user" id="passwordAdd" name="password" required>
+        </form>
+        <input type="button" value="Add user" onclick="add()">
         <input type="button" value="Back to Login page" onclick="back()">
+        
+
     </div>
+</div>
+</div>
+</div>
 	<script src="welcome.js"></script>
     
 </body>
