@@ -15,12 +15,13 @@
         <div id="textBox">
     <h1>Welcome, <span id="username"></span>!</h1>
     <div id="buttonStyle">
-        <form>
+        <form action="inser.php" method="POST">
             <input type="text" placeholder="Enter a name to add" id="nameAdd" name="name" required>
             <input type="password" placeholder="Enter a password for the user" id="passwordAdd" name="password" required>
+            <input type="submit" value="Add user" onclick="add()">
         </form>
-        <input type="button" value="Add user" onclick="add()">
-        <input type="button" value="Back to Login page" onclick="back()">
+        
+        <input type="submit" value="Back to Login page" onclick="back()">
         
 
     </div>
